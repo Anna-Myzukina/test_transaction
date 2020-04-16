@@ -1,0 +1,4 @@
+	<h2><%= @group.name %> <%= @group.created_at %></h2> 
+	<% @group.tasks.each do |group_task| %>
+		<%= group_task.name %>
+	<%end%>
