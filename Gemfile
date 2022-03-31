@@ -10,7 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'devise'
 gem 'omniauth-facebook'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
